@@ -1,10 +1,21 @@
+import os
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from sqlalchemy.orm import declarative_base
-from app.models import Base
-from config import Config
+from dotenv import load_dotenv
 
-engine = create_engine(Config.SQLALCHEMY_DATABASE_URI)
+# Load environment variables from .env file
+load_dotenv()
+
+DATABASE_NAME = os.getenv("DATABASE_NAME")
+USER = os.getenv("USER")
+PASSWORD = os.getenv("PASSWORD")
+HOST = os.getenv("HOST")
+PORT = os.getenv("PORT")
+
+DATABASE_URL = f"postgresql://{USER}:{PASSWORD}@{HOST}:{PORT}/{DATABASE_NAME}"
+
+# Create the SQLAlchemy engine and session
+engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 def get_db():
@@ -13,6 +24,3 @@ def get_db():
         yield db
     finally:
         db.close()
-
-def init_db():
-    Base.metadata.create_all(bind=engine)
