@@ -14,3 +14,5 @@ def fetch_post(subreddit_name, post_id):
     subreddit = reddit.subreddit(subreddit_name)
     post = subreddit.submission(id=post_id)
     return post
+
+

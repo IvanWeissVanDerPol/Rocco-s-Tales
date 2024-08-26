@@ -1,0 +1,92 @@
+{
+  "posts": [
+      {
+          "id": "123abc",
+          "title": "My boss thought he could get away with mistreating me...",
+          "selftext": "I worked for a small company for five years, where I was often overlooked for promotions and raises. My boss was particularly dismissive of my efforts. But I bided my time, waiting for the perfect moment to strike back. Then, I discovered that my boss was embezzling money from the company. I gathered all the evidence, filed a report with the corporate office, and he was fired. I was promoted to his position soon after.",
+          "author": "revenge_master",
+          "subreddit": "ProRevenge",
+          "upvotes": 4500,
+          "downvotes": 50,
+          "upvote_ratio": 0.99,
+          "num_comments": 2,
+          "created_at": "2024-08-25T14:48:00Z",
+          "post_url": "https://www.reddit.com/r/ProRevenge/comments/123abc/my_boss_thought_he_could_get_away_with_mistreating_me/",
+          "nsfw": false,
+          "spoiler": false,
+          "awards": [
+              {"award_name": "Gold", "count": 2},
+              {"award_name": "Silver", "count": 5}
+          ],
+          "post_flair": "Revenge Served",
+          "comments": [
+              {
+                  "id": "cmt1",
+                  "content": "Good for you! People like that deserve what they get.",
+                  "author": "user123",
+                  "upvotes": 100,
+                  "downvotes": 1,
+                  "created_at": "2024-08-25T15:00:00Z",
+                  "comment_url": "https://www.reddit.com/r/ProRevenge/comments/123abc/cmt1/",
+                  "awards": [
+                      {"award_name": "Silver", "count": 1}
+                  ]
+              },
+              {
+                  "id": "cmt2",
+                  "content": "This is why you should never underestimate your employees.",
+                  "author": "user456",
+                  "upvotes": 150,
+                  "downvotes": 0,
+                  "created_at": "2024-08-25T15:05:00Z",
+                  "comment_url": "https://www.reddit.com/r/ProRevenge/comments/123abc/cmt2/",
+                  "awards": []
+              }
+          ]
+      },
+      {
+          "id": "456def",
+          "title": "Roommate from hell gets what she deserves",
+          "selftext": "I had a roommate who was absolutely terrible. She would steal my food, leave the apartment a mess, and was just generally awful to live with. I decided to get back at her by moving out without telling her, leaving her to cover the rent all by herself. She freaked out when she found out and had to scramble to find a new roommate.",
+          "author": "roommate_revenge",
+          "subreddit": "ProRevenge",
+          "upvotes": 3800,
+          "downvotes": 30,
+          "upvote_ratio": 0.98,
+          "num_comments": 2,
+          "created_at": "2024-08-25T16:00:00Z",
+          "post_url": "https://www.reddit.com/r/ProRevenge/comments/456def/roommate_from_hell_gets_what_she_deserves/",
+          "nsfw": false,
+          "spoiler": false,
+          "awards": [
+              {"award_name": "Gold", "count": 1},
+              {"award_name": "Silver", "count": 3}
+          ],
+          "post_flair": "Petty Revenge",
+          "comments": [
+              {
+                  "id": "cmt3",
+                  "content": "Classic move! I bet she didn’t see that coming.",
+                  "author": "user789",
+                  "upvotes": 200,
+                  "downvotes": 5,
+                  "created_at": "2024-08-25T16:10:00Z",
+                  "comment_url": "https://www.reddit.com/r/ProRevenge/comments/456def/cmt3/",
+                  "awards": []
+              },
+              {
+                  "id": "cmt4",
+                  "content": "Serves her right! Good for you for standing up for yourself.",
+                  "author": "user321",
+                  "upvotes": 250,
+                  "downvotes": 2,
+                  "created_at": "2024-08-25T16:15:00Z",
+                  "comment_url": "https://www.reddit.com/r/ProRevenge/comments/456def/cmt4/",
+                  "awards": [
+                      {"award_name": "Silver", "count": 2}
+                  ]
+              }
+          ]
+      }
+  ]
+}

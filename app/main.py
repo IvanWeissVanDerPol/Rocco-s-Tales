@@ -1,6 +1,6 @@
-from reddit.reddit import fetch_post
-from app.inserter import process_and_store_post, handle_low_rating_post, select_content_for_video
-from app.database import get_db
+from reddit import fetch_post
+from inserter import process_and_store_post, handle_low_rating_post, select_content_for_video
+from database import get_db
 
 def main():
     db_session = next(get_db())

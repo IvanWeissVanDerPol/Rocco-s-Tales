@@ -1,7 +1,7 @@
 from sqlalchemy.orm import sessionmaker
-from app.models import RedditPost, RedditComment
-from app.database import get_db
-from app.ai_utils import rate_content, generate_tts_for_post, generate_image_for_post
+from models import RedditPost, RedditComment
+from database import get_db
+from ai_utils import rate_content, generate_tts_for_post, generate_image_for_post
 
 def process_and_store_post(post, db_session):
     reddit_post = RedditPost(
